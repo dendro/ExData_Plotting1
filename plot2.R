@@ -12,6 +12,6 @@ Sys.setlocale("LC_ALL", "English")
 
 png(file="plot2.png")
 
-with (x, plot(Datetime, Global_active_power, "l", ylab="Global Active Power (kilowatts)", xlab="",
+with(x, plot(Datetime, Global_active_power, "l", ylab="Global Active Power (kilowatts)", xlab="",
              main=""))
 dev.off()

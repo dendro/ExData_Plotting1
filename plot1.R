@@ -8,6 +8,6 @@ x <- read.csv("h_c_s.csv", sep=";") #reading the data with no conversions needed
 
 png(file="plot1.png")
 
-with (x, hist(Global_active_power, xlab="Global Active Power (kilowatts)", 
+with(x, hist(Global_active_power, xlab="Global Active Power (kilowatts)", 
               col="red", main="Global Active Power"))
 dev.off()
