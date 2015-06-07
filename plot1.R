@@ -1,4 +1,4 @@
-## sometimes its quicker to work with the data outside of R, so I downloaded the
+## sometimes its faster to work with the data outside of R, so I downloaded the
 ## zip, extracted the household_power_consumption.txt and extracted the parts in
 ## a truncated csv, containing only the relevant values for the dates.
 ## I created the h_c_s.csv using git bash and the following single line command:
