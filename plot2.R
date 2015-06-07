@@ -11,6 +11,7 @@ x <- within(x, Datetime <- strptime(paste(Date, Time), format="%d/%m/%Y %H:%M:%S
 Sys.setlocale("LC_ALL", "English")
 
 png(file="plot2.png")
+
 with (x, plot(Datetime, Global_active_power, "l", ylab="Global Active Power (kilowatts)", xlab="",
              main=""))
 dev.off()

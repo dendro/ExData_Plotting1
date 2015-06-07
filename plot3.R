@@ -11,6 +11,7 @@ x <- within(x, Datetime <- strptime(paste(Date, Time), format="%d/%m/%Y %H:%M:%S
 Sys.setlocale("LC_ALL", "English")
 
 png(file="plot3.png")
+
 with (x, plot(Datetime, Sub_metering_1, "l", ylab="Energy sub metering", xlab="",
               main=""))
 with (x, lines(Datetime, Sub_metering_2, "l", col="red"))

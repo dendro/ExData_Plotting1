@@ -11,6 +11,7 @@ x <- within(x, Datetime <- strptime(paste(Date, Time), format="%d/%m/%Y %H:%M:%S
 Sys.setlocale("LC_ALL", "English")
 
 png(file="plot4.png")
+
 par(mfrow = c(2,2)) # 2x2 tiles
 with (x, plot(Datetime, Global_active_power, "l", ylab="Global Active Power", xlab="",
               main=""))
